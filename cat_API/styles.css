@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sec1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url("https://images.pexels.com/photos/2061057/pexels-photo-2061057.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav{
+    color:whitesmoke;
+    text-align: center;
+    background-color: rgba(222, 178, 178, 0.4);
+    padding: 10px;
+}
+
+.fact{
+    color: white;
+    font-size: larger;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 20%;
+    position: relative;
+}
+
+#catfactdiv{
+    margin: 10px;
+    background-color: rgba(222, 178, 178, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#btn {
+    color: black;
+    background-color: antiquewhite;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#btn:hover {
+    background-color: lightcoral;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Second section */
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 228, 225, 0.8);
+}
+
+#img {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 90%;
+    max-height: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+#img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#btn2 {
+    color: black;
+    background-color: antiquewhite;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn2:hover {
+    background-color: lightcoral;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
